@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../img/crowd.jpg) center center/cover no-repeat;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+}
+.wrapper {
+    width: 740px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 320px;
+    height: 150px;
+    padding: 25px 18px;
+    margin: 20px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 20px;
+    background: rgba(35, 103, 126, 0.733);
+}
+.card-mail {
+    margin: 15px 0;
+    text-transform: lowercase;
+    font-size: 18px;
+}
+.info{
+    width: 320px;
+    height: 530px;
+    font-size: 18px;
+    margin: 20px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, rgb(71, 71, 71), rgb(255, 1, 1));
+}
+.info h2 {
+    margin:  40px 20px;
+    text-align: center;
+}
+.usercard {
+    width: 320px;
+    height: 530px;
+    padding: 25px 20px;
+    font-size: 18px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, rgb(71, 71, 71), rgb(255, 1, 1));
+}
+.usercard h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+.usercard div {
+    margin: 15px 0;
+}
+.card div {
+    pointer-events: none;
+}
+.card h2 {
+    pointer-events: none;
+}
